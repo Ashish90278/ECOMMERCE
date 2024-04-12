@@ -1,151 +1,284 @@
-.topText{
-    margin-top: 89px;
-    margin-left: 93px;
+.productName {
+  margin-top: 4rem;
+  /* width: 100vw; */
+}
+
+.productName p {
+  display: flex;
+  flex-direction: row;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+  color: grey;
+  width: auto;
+}
+
+.game {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  width: 100%;
+  height: 95vh;
+  gap: 2rem;
+  /* margin-left: 7vw; */
+  margin-top: 4rem;
+}
+
+.game .productImages {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 17%;
+  gap: 1.2rem;
+}
+
+.productImages img {
+  width: 100%;
+  /* border: 2px solid red; */
+  object-fit: cover;
+  height: 22%;
+  /* border-radius: 4px; */
+}
+
+.game .productImage {
+  width: 48%;
+}
+.game .productImage img {
+  /* height: 100%; */
+  width: 100%;
+  object-fit: cover;
+  /* border: 2px solid pink; */
+}
+
+.productDescription {
+  display: flex;
+  flex-direction: column;
+  /* height: 100%; */
+  /* border: 2px solid red; */
+  padding-left: 2rem;
+  width: 41%;
+  /* border: 2px solid red; */
+}
+
+.productDescription p {
+  display: flex;
+  flex-direction: row;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+  color: grey;
+  width: auto;
+}
+
+.descriptionTop {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  height: 36%;
+  /* border: 2px solid red; */
+}
+.productDescription .descriptionTop h2 {
+  font-family: "Inter", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+
+.productDescription .descriptionTop :nth-child(3) {
+  font-family: "Inter", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+
+.productDescription .descriptionTop div {
+  height: 1rem;
+  width: 100%;
+  display: flex;
+  /* justify-content: start; */
+  margin-left: -3.2rem;
+}
+.productDescription .descriptionTop p {
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+  color: black;
+}
+
+.descriptionBottom {
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid black; */
+  height: 64%;
+  /* gap: 20px; */
+  padding-top: 1rem ;
+  justify-content: space-between;
+}
+
+.descriptionBottom img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* padding: 0rem 0rem 5rem 0rem; */
+}
+
+.chooseColor {
+  display: flex;
+  width: 155px;
+  height: 20px;
+  justify-content: space-between;
+}
+
+.chooseColor :nth-child(1) {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+}
+
+.colorFlex {
+  display: flex;
+  width: 60px;
+  height: 20px;
+  justify-content: space-between;
+}
+
+.borderOn {
+  border: 1px solid black;
+}
+
+.borderOff {
+  border: 0px solid black;
+}
+
+.chooseSize {
+  width: 296px;
+  display: flex;
+  height: 32px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.chooseSize :nth-child(1) {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+.sizes {
+  width: 224px;
+  height: 32px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.singleSize {
+  border: 1px solid black;
+  height: 32px;
+  width: 32px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rightProductCentre {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 210px;
+  /* align-items: center; */
+  gap: 20px;
 }
 
 
-.game{
-    width: 700px;
-    height: 600px;
+
+.stateBtnM {
+  width: 40px;
+  height: 44px;
+  /* border-radius: 4px 0 0 4px; */
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stateBtnP {
+  width: 40px;
+  height: 40px;
+  background-color: #db4444;
+}
+
+
+.buyNow {
     display: flex;
-    align-items: center;
-    /* justify-content: space-between; */
-    gap: 30px;
-    margin-left: 7vw;
-    margin-top: 20vh;
-    
-}
-
-.leftGame{
-    display: flex;
-    flex-direction: column;
-    height: 600px;
-    width: 170px;
-    gap: 14px;
-}
-
-.leftGameImg{
-    width: 170px;
-    height: 138px;
-    border-radius: 4px;
-}
-
-
-.rightProduct{
-    display: flex;
-    flex-direction: column;
-    width: 40vw;
-    height: 600px;
-}
-
-.rightProductTop{
-    height: 115px;
-    width: 375px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-
-.rightProductRating{
-    display: flex;
-    width: 290px;
-    justify-content: space-between;
-}
-
-
-.chooseColor{
-    display: flex;
-    width: 155px;
-    height: 20px;
-    justify-content: space-between;
-    
-}
-
-.colorFlex{
-    display: flex;
-    width: 60px;
-    height: 20px;
-    justify-content: space-between;
-}
-
-.borderOn{
-    border: 1px solid black;
-}
-
-.borderOff{
-    border: 0px solid black;
-}
-
-.chooseSize{
-    width: 296px;
-    display: flex;
-    height: 32px;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.sizes{
-    width: 224px;
-    height: 32px;
-    display: flex;
-    justify-content: space-between;
-}
-
-
-.singleSize{
-    border: 1px solid black;
-    height: 32px;
-    width: 32px;
-    border-radius: 4px;
-    display: flex;
-    align-items: center;
+    width: 100%;
     justify-content: center;
-}
-
-
-.rightProductCentre{
-    display: flex;
-    flex-direction: column;
-    width: 400px;
-    height: 210px;
-    /* align-items: center; */
-    gap: 20px;
-}
-
-.dil2{
-    width: 40px;
-    height: 40px;
-    border-radius: 4px;
-    border: 1px solid black;
-    padding: 2px;
-}
-
-.stateBtnM{
-    width: 40px;
-    height: 44px;
-    /* border-radius: 4px 0 0 4px; */
-    border: 1px solid black;
-    display: flex;
+    gap: 1rem;
     align-items: center;
-    justify-content: center;
+    height: 33px;
+    /* border: 1px solid green; */
 }
 
-.stateBtnP{
-    width: 40px;
-    height: 40px;
-    background-color: #DB4444;
+.productQuantity{
+  display: flex;
+  /* border: 2px solid red ; */
+  justify-content: space-between ;
+  align-items: center;
+  width: 50%;
+  /* border: 1px solid grey; */
+  /* border-radius: 4px; */
+  height: 100%;
 }
 
-.firstBlock{
-    display: flex;
-
+.productQuantity button{
+    border: 1px solid transparent;
+    height: 100%;
+    font-size: large;
+    font-style: normal;
 }
 
-.rightProductBottom{
-    display: flex;
-    width: 296px;
+.productQuantity :nth-child(1) {
+    border-radius: 2px 0px 0px 2px;
+    border: 1px solid grey;
+}
+.productQuantity :nth-child(2) {
     justify-content: center;
     align-items: center;
-    height: 40px;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    height: 100%;
+    width: 80%;
+}
+.productQuantity :nth-child(3) {
+    border-radius: 0px 2px 2px 0px;
+    color: white;
+    border: 1px solid #DD4444;
+}
+
+.buyNow div img {
+    height: 100%;
+    border-radius: 2px;
+    border: 1px solid transparent;
+}
+
+.relatedItems{
+  height: 22rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 6rem;
 }

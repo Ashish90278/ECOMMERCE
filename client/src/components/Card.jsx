@@ -8,10 +8,11 @@ export const Card = (props) => {
         <div className="cardUpper">
           <img src={props.img} className="cardImg" />
           <span className="cardImgDiscount">{props.discount}</span>
-          <span class="material-symbols-outlined dil">HeartIcon</span>
-          <span class="material-symbols-outlined eye">WishlistIcon</span>
-          <span className="addToCart">Add to Cart!</span>
+          <span className= "dil">
+            <img src="../../public/Frame 575.svg" alt="" />
+          </span>
         </div>
+        <div className="addToCart">Add to Cart</div>
         <div className="cardInfo">
           <div>{props.itemName}</div>
           <div style={{ color: "tomato", height: "24px" }}>

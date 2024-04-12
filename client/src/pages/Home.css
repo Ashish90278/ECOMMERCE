@@ -70,10 +70,16 @@
 .flashSale{
     display: flex;
     flex-direction: column;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 100%;
 }
-.flashSaleItem{
-    display: flex;
 
+.flashSale .viewProducts{
+  /* height: 10rem; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: aqua; */
+  margin-top: -4rem;
 }
