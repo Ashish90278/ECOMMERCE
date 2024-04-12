@@ -1,0 +1,20 @@
+.heading {
+  display: flex;
+  font-family: "Inter", sans-serif;
+  color: #db4444;
+  font-family: Poppins;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: left;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 1rem 0rem;
+}
+
+.heading div{
+    height: 2rem;
+    width: 1rem;
+    background-color: #db4444;
+    border-radius: 0.2rem;
+}

@@ -1,0 +1,79 @@
+.heroSection {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  /* border: 2px solid red; */
+}
+
+.side{
+    width: 25%;
+}
+.side ul {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  justify-content: space-evenly;
+  padding: 2.1rem 0rem;
+}
+
+.side ul li a{
+    color: black;
+}
+.verticalBar {
+  border-left: 1px solid grey;
+  width: 2px;
+  height: 22rem;
+}
+.carouselImg {
+  object-fit: cover;
+  width: 100%;
+  padding: 1.5rem 0rem 1.5rem 2rem;
+}
+
+.carouselImg img{
+    width: 100%;
+}
+
+.sideList {
+  height: 344px;
+  width: 217px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  list-style: none;
+}
+
+.sideListArrowed {
+  display: flex;
+  width: 157px;
+  height: 24px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sideListNonArrowed {
+  text-decoration: none;
+}
+
+.iPhoneImg {
+  height: 360px;
+  width: 892px;
+}
+
+
+
+/* Flash Sale */
+
+
+.flashSale{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid red;
+    width: 100%;
+}
+.flashSaleItem{
+    display: flex;
+
+}

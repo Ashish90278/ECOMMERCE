@@ -1,0 +1,127 @@
+.userInfo {
+  display: flex;
+  height: 100px;
+  width: 100%;
+  /* background-color: aqua; */
+  justify-content: space-between;
+  align-items: center;
+}
+
+.userInfo div {
+  display: flex;
+}
+.contactForm {
+  display: flex;
+  height: 24rem;
+  width: 100%;
+  margin-bottom: 7rem;
+
+  /* background-color: bisque; */
+}
+
+.contactForm aside {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 0rem;
+  gap: 1rem;
+  align-items: flex-start;
+  width: 32%;
+  box-shadow: 0px 1px 13px 0px rgba(0, 0, 0, 0.05);
+}
+
+.contactForm aside ul {
+  padding-left: 1.5rem;
+}
+
+.contactForm aside ul li {
+  padding: 0.2rem 0rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: grey;
+  cursor: pointer;
+}
+
+.contactForm form {
+  margin: 0rem 0rem 0rem 2rem;
+  box-shadow: 0px 1px 13px 0px rgba(0, 0, 0, 0.05);
+  padding: 2rem 2rem;
+  width: 68%;
+  color: rgba(219, 68, 68, 1);
+}
+
+.contactInfo {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+.contactForm form input {
+  background-color: rgba(245, 245, 245, 1);
+  padding: 0.5rem;
+  border: 2px solid transparent;
+  
+  border-radius: 4px 0px 0px 0px;
+  outline: none;
+  width: 10.4rem;
+}
+.contactForm form textarea {
+  background-color: rgba(245, 245, 245, 1);
+  padding: 0.5rem;
+  border: 2px solid transparent;
+  margin-bottom: 1rem ;
+  width: 100%;
+  border-radius: 4px 0px 0px 0px;
+  outline: none;
+}
+
+.userEditButton {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 1rem;
+}
+
+.contactForm aside {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 2rem;
+}
+
+.contactForm aside hr{
+    background-color:black;
+    height: 1px;
+    width: 100%;
+    border: 1px solid black;
+    margin: 0rem 0rem 1rem 0rem;
+} 
+.icon {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  gap: 10px;
+  margin-bottom: 1rem;
+}
+.contactForm aside div .icon p {
+  font-family: "Poppins", sans-serif;
+  height: 100%;
+  width: 100%;
+  /* align-items: center; */
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align:left;
+}
+.icon img {
+  width: 35px;
+  height: 35px;
+}
+.contactForm aside div p {
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+  margin-bottom: 0.6rem;
+}

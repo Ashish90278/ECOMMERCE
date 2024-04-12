@@ -1,0 +1,10 @@
+
+
+.titleBar {
+  font-family: "Inter", sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: 0.04em;
+  text-align: left;
+}

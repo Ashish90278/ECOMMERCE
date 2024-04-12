@@ -1,0 +1,60 @@
+.card {
+  height: 350px;
+  width: 270px;
+}
+
+.cardUpper {
+  height: 250px;
+  width: 270px;
+  border: 1px solid pink;
+}
+
+.cardImg {
+  height: 180px;
+  width: 190px;
+}
+
+.cardInfo {
+  display: flex;
+  flex-direction: column;
+  height: 84px;
+  width: 270px;
+  gap: 12px;
+  border: 1px solid black;
+}
+
+.cardStar {
+  height: 22px;
+  width: 140px;
+}
+
+.cardImgDiscount {
+  position: absolute;
+  margin-left: -186px;
+  margin-top: -1px;
+  background-color: tomato;
+  border-radius: 5px;
+  border: 2px solid tomato;
+}
+
+.dil {
+  position: absolute;
+}
+
+.eye {
+  position: absolute;
+  margin-top: 40px;
+}
+
+.addToCart {
+  margin-top: 184px;
+  margin-left: -191px;
+  background-color: black;
+  color: white;
+  border-left: 69px solid black;
+  position: absolute;
+  width: 151px;
+  border-bottom: 10px solid black;
+  border-top: 10px solid black;
+  cursor: pointer;
+}

@@ -1,0 +1,151 @@
+.topText{
+    margin-top: 89px;
+    margin-left: 93px;
+}
+
+
+.game{
+    width: 700px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 30px;
+    margin-left: 7vw;
+    margin-top: 20vh;
+    
+}
+
+.leftGame{
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    width: 170px;
+    gap: 14px;
+}
+
+.leftGameImg{
+    width: 170px;
+    height: 138px;
+    border-radius: 4px;
+}
+
+
+.rightProduct{
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    height: 600px;
+}
+
+.rightProductTop{
+    height: 115px;
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.rightProductRating{
+    display: flex;
+    width: 290px;
+    justify-content: space-between;
+}
+
+
+.chooseColor{
+    display: flex;
+    width: 155px;
+    height: 20px;
+    justify-content: space-between;
+    
+}
+
+.colorFlex{
+    display: flex;
+    width: 60px;
+    height: 20px;
+    justify-content: space-between;
+}
+
+.borderOn{
+    border: 1px solid black;
+}
+
+.borderOff{
+    border: 0px solid black;
+}
+
+.chooseSize{
+    width: 296px;
+    display: flex;
+    height: 32px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sizes{
+    width: 224px;
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.singleSize{
+    border: 1px solid black;
+    height: 32px;
+    width: 32px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.rightProductCentre{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 210px;
+    /* align-items: center; */
+    gap: 20px;
+}
+
+.dil2{
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid black;
+    padding: 2px;
+}
+
+.stateBtnM{
+    width: 40px;
+    height: 44px;
+    /* border-radius: 4px 0 0 4px; */
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.stateBtnP{
+    width: 40px;
+    height: 40px;
+    background-color: #DB4444;
+}
+
+.firstBlock{
+    display: flex;
+
+}
+
+.rightProductBottom{
+    display: flex;
+    width: 296px;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
